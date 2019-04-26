@@ -30,7 +30,7 @@ class MailTableViewController: UITableViewController {
         
         view.layoutMargins.left = 32
         
-        defaultOptions.actionsViewInsets = UIEdgeInsetsMake(10, 0, 10, 0)
+        defaultOptions.actionsViewInsets = UIEdgeInsets(top: 10, left: 0, bottom: 10, right: 0)
         defaultOptions.actionsViewCornerRadius = 5
         
         resetData()
